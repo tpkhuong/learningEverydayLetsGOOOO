@@ -27,6 +27,7 @@ module.exports = {
     plugins: [new HtmlWebpackPlugin({
         //once we added HtmlWebpackPlugin and pass in the obj {} with the template property pointing to our index.html file in dist live-reload works. WOOT!
         template: "./dist/index.html"
+        // template: "./views/index.ejs"
     })],
     devtool: "source-map",
     devServer: {
