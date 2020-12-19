@@ -32,6 +32,12 @@ export function makeStuffHappen() {
         console.dir(makeArrayOfCollection);
 
     });
+    var div = document.createElement("div");
+    var ourChildren = ourSelectors.mainNav;
+    console.dir(ourChildren);
+    div.setAttribute("class", "inner-container");
+    // ourSelectors.mainNav.appendChild("div");
+    console.log(ourSelectors.mainNav);
     console.log(ourSelectors.ourWrapper);
     console.log(typeof ourSelectors.ourWrapper);
     console.dir(ourSelectors.ourWrapper);
