@@ -4,10 +4,10 @@ var mainNav = document.querySelector(".main__nav");
 var ourFooter = document.querySelector(".footer");
 
 var ourSelectors = {
-    ourWrapper,
-    ourH1,
-    mainNav,
-    ourFooter
-}
+  ourWrapper,
+  ourH1,
+  mainNav,
+  ourFooter,
+};
 
-export { ourSelectors }
+export { ourSelectors };
