@@ -29,6 +29,7 @@ export function makeStuffHappen() {
   // });
 
   ourSelectors.mainNav.addEventListener("click", function clickForInfo(event) {
+    console.log(`this is event.target: ${event.target}`); //this is an expression.
     console.dir(event.target);
     var parentOfLiElements = event.target.parentElement;
     var getChildren = parentOfLiElements.children;
