@@ -9,8 +9,22 @@ console.log(makeStuffHappen());
 
 var count = 0;
 function updateSpan() {
-  count += 1;
-  ourSelectors.updateSpan.textContent = String(count);
+  var time = new Date().toLocaleTimeString();
+  ourSelectors.updateSpan.textContent = String(time);
 }
 
 // setInterval(updateSpan, 1000);
+
+function getUserInput() {
+  /*** code below will select the form on submit. call preventDefault we can access the form's elements.
+   * event.target.elements.USERNAME => username is the id we gave to our input element in our HTML
+   *  ***/
+  ourSelectors.ourForm.addEventListener("submit", function clickStuff(event) {
+    event.preventDefault();
+    console.dir(event.target);
+    console.dir(event.target.elements.username);
+    console.dir(event.target.elements.username.value);
+  });
+}
+
+getUserInput();

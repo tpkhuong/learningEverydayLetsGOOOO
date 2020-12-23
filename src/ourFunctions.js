@@ -17,6 +17,7 @@ export function sayGoodbye() {
 
 export function makeStuffHappen() {
   document.addEventListener("keydown", function learingMode(event) {
+    /***event.target is our best friend. ***/
     console.dir(event);
     console.dir(event.target);
     var children = event.target.children;

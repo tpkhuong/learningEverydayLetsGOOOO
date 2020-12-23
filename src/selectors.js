@@ -3,6 +3,7 @@ var ourH1 = document.querySelector(".title");
 var mainNav = document.querySelector(".main__nav");
 var ourFooter = document.querySelector(".footer");
 var updateSpan = document.querySelector(".add-value");
+var ourForm = document.querySelector(".first_content + form");
 
 var ourSelectors = {
   ourWrapper,
@@ -10,6 +11,7 @@ var ourSelectors = {
   mainNav,
   ourFooter,
   updateSpan,
+  ourForm,
 };
 
 export { ourSelectors };
