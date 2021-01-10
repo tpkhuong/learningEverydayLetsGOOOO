@@ -1,11 +1,14 @@
 import { sayHi, sayGoodbye, makeStuffHappen } from "./ourFunctions";
 import "../public/css/index.css";
 import { ourSelectors } from "./selectors";
+import printStuff from "./csmExports";
 
 console.log(`this is a function from ourFunction.js ${sayHi()}`);
 console.log(`this is a function from ourFunction.js ${sayGoodbye()}`);
 
 console.log(makeStuffHappen());
+
+printStuff(ourSelectors);
 
 var count = 0;
 function updateSpan() {

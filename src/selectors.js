@@ -4,6 +4,7 @@ var mainNav = document.querySelector(".main__nav");
 var ourFooter = document.querySelector(".footer");
 var updateSpan = document.querySelector(".add-value");
 var ourForm = document.querySelector(".first_content + form");
+var divClickMe = document.querySelector(".click-me");
 
 var ourSelectors = {
   ourWrapper,
@@ -12,6 +13,7 @@ var ourSelectors = {
   ourFooter,
   updateSpan,
   ourForm,
+  divClickMe,
 };
 
 export { ourSelectors };

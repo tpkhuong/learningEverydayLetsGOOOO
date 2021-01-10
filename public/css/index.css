@@ -49,3 +49,9 @@ h1 {
 .add-value {
   color: black;
 }
+
+.click-me {
+  width: 5em;
+  height: 5em;
+  background: red;
+}
